@@ -1,0 +1,39 @@
+.main {
+    background-color: #363C43;
+    width: 720px;
+    height: 316px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5.67px 5.67px 3.78px 0 rgba(0, 0, 0, .4);
+}
+
+.right_bar {
+    position: absolute;
+    top: 111px;
+    right: 13px;
+    width: 8px;
+    height: 64px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, rgba(74, 78, 84, 1) 0%, rgba(136, 137, 137, 1) 100%);
+
+}
+
+.left_bar {
+    display: flex;
+    flex-direction: column;
+    gap: 105px;
+    position: absolute;
+    top: 20px;
+    left: 12px
+}
+
+.horizontal_line {
+    margin: 21px 54px;
+    width: 612px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,16 @@
+.widget1_text {
+    font-family: "Plus Jakarta Sans";
+    width: 611px;
+    max-height: 175px;
+    font-size: 20px;
+    color: #969696;
+    display: flex;
+    align-items: start;
+    justify-items: start;
+
+    position: absolute;
+    bottom: 27px;
+    left: 53px;
+    line-height: auto;
+    letter-spacing: 0;
+}
